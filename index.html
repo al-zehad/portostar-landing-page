@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PortoStar - Portfolio Site</title>
   <!-- Google Fonts Start -->
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <!-- Google Fonts End -->
 
   <!-- CSS Files Start -->
@@ -18,7 +22,436 @@
 
 <body>
 
+  <!-- Header Section Starts -->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <img src="./images/logo.png" alt="logo.png">
 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WORKS</a>
+            </li>
+          </ul>
+
+          <a href="#" class="myBtn headerBtn">HIRE ME <i class="fa-regular fa-envelope"></i></a>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!-- Header Section Ends -->
+  <main>
+    <!-- Hero Section Starts -->
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="heroLeft col-lg-5">
+            <span>SAKIB AL HASAN</span>
+            <h1>Hello, my name's Sakib. I'm MERN Stack Developer.</h1>
+            <div class="heroBtn">
+              <a href="#" class="myBtn"><i class="fa-regular fa-envelope"></i>CONTACT ME</a>
+              <a href="#" class="myBtn"><i class="fa-solid fa-download"></i>DOWNLOAD CV</a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img src="./images/heroImg.png" alt="heroImg.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+
+    <!-- Experience Section Starts -->
+    <section id="experience">
+      <div class="container">
+        <div class="row g-4">
+          <div class="expItem col-lg-3">
+            <h3 class="expQty">100+</h3>
+            <p class="expName">PROJECTS</p>
+          </div>
+
+          <div class="expItem col-lg-3">
+            <h3 class="expQty">24</h3>
+            <p class="expName">WINNING AWARD</p>
+          </div>
+
+          <div class="expItem col-lg-3">
+            <h3 class="expQty">70+</h3>
+            <p class="expName">HAPPY CLIENTS</p>
+          </div>
+
+          <div class="expItem col-lg-3">
+            <h3 class="expQty">10</h3>
+            <p class="expName">YEAR EXPERIENCE</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience Section Ends -->
+
+
+    <!-- Services Section Starts -->
+    <section id="services">
+      <div class="service container">
+        <div class="row">
+          <div class="col-12">
+            <p class="sectionName">SERVICES</p>
+            <div class="polygon">
+              <img src="./icons/polygon.svg" alt="Polygon">
+            </div>
+            <h2 class="sectionTitle">What I Do For My Customer.</h2>
+            <p class="sectionDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.
+              Praesent at hendrerit velit, at dictum nisl.</p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="serviceCardContainer col-lg-4">
+            <div class="serviceCard">
+              <div class="serviceIcon">
+                <img src="./icons/uiUxDesign.svg" alt="Ui Ux design icon">
+              </div>
+              <h3 class="serviceTitle">UI/UX Design</h3>
+              <p class="serviceDesc">lorem ipsum dolor sit amet consectur adi pising leo</p>
+            </div>
+          </div>
+
+          <div class="serviceCardContainer col-lg-4">
+            <div class="serviceCard">
+              <div class="serviceIcon">
+                <img src="./icons/productDesign.svg" alt="Product icon">
+              </div>
+              <h3 class="serviceTitle">Product Design</h3>
+              <p class="serviceDesc">lorem ipsum dolor sit amet consectur adi pising leo</p>
+            </div>
+          </div>
+
+          <div class="serviceCardContainer col-lg-4">
+            <div class="serviceCard">
+              <div class="serviceIcon">
+                <img src="./icons/motionGraphics.svg" alt="Motion Graphics icon">
+              </div>
+              <h3 class="serviceTitle">Motion Graphics</h3>
+              <p class="serviceDesc">lorem ipsum dolor sit amet consectur adi pising leo</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Services Section Ends -->
+
+
+    <!-- Graphic Designer Section Starts -->
+    <section id="graphicDesigner">
+      <img src="./icons/graphicDesignLeftBottom.svg" alt="graphicDesignLeftBottom" class="bottomLeft">
+      <img src="./icons/graphicDesignRightBottom.svg" alt="graphicDesignRightBottom" class="bottomRight">
+      <img src="./icons/polygonBig.svg" alt="Polygon" class="floatingPolygonBig">
+      <img src="./icons/polygonSmall.svg" alt="Polygon" class="floatingPolygonSmall">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="leftAligned sectionName">GRAPHIC DESIGNER</p>
+            <h2>Graphic Designer With 10 Years Of Experience.</h2>
+            <p class="graphicsDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.
+              Praesent at hendrerit velit, at dictum nisl.</p>
+            <div class="contactMe">
+              <a href="#" class="myBtn"><i class="fa-regular fa-envelope"></i>CONTACT ME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Graphic Designer Section Ends -->
+
+    <!-- Client Work section Starts -->
+    <section id="clientWork">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6 col-lg-3">
+            <img src="./images/work1.png" alt="Logo Design">
+          </div>
+
+
+          <div class="col-6 col-lg-3">
+            <img src="./images/work2.png" alt="Logo Design">
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <img src="./images/work3.png" alt="Logo Design">
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <img src="./images/work4.png" alt="Logo Design">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Client Work section Ends -->
+
+
+    <!-- Portfolio Section Starts -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="portfolioLeft col-6">
+            <p class="leftAligned sectionName">PORTFOLIO</p>
+            <h3>Selected Works.</h3>
+          </div>
+
+          <div class="portfolioRight col-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit
+              velit, at dictum nisl.</p>
+          </div>
+        </div>
+
+
+        <div class="row g-4">
+
+          <div class="col-lg-6">
+            <div class="card projectCard">
+              <img src="./images/projectImgOne.jpg" class="card-img-top" alt="projectImgOne.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Creativa - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card projectCard">
+              <img src="./images/projectImgTwo.jpg" class="card-img-top" alt="projectImgTwo.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Nusapp - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card projectCard">
+              <img src="./images/projectImgThree.jpg" class="card-img-top" alt="projectImgThree.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Webina - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card projectCard">
+              <img src="./images/projectImgFour.jpg" class="card-img-top" alt="projectImgFour.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Marketin - Elementor Template Kit</h5>
+                <p class="card-text">UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Portfolio Section Ends -->
+
+
+    <!-- Testimony Section Starts -->
+    <section id="testimony">
+
+      <div class="upperPart">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="sectionName">TESTIMONY</p>
+              <h2 class="sectionTitle">What Our Clients Say.</h2>
+              <p class="sectionDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.
+                Praesent at hendrerit velit, at dictum nisl.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="lowerFloatingPart">
+
+          <div class="row">
+            <div class="reviewCard col-lg-6">
+              <div class="rating">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="reviewText">
+                Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis
+                varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+              </p>
+              <div class="reviewCardBottomFlex">
+                <div class="serviceDetail">
+                  <div class="clientPhoto">
+                    <img src="./images/reviewCardImg.jpg" alt="reviewCardImg.jpg">
+                  </div>
+                  <div class="nameAndService">
+                    <h4>David Gueta</h4>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="textBubble">
+                  <img src="./icons/textBubble.svg" alt="Text Bubble Icon">
+                </div>
+              </div>
+            </div>
+
+            <div class="reviewCard col-lg-6">
+              <div class="rating">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="reviewText">
+                Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui. Vestibulum nisl lorem, porta at mollis
+                varius, tincidunt in lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+              </p>
+              <div class="reviewCardBottomFlex">
+                <div class="serviceDetail">
+                  <div class="clientPhoto">
+                    <img src="./images/reviewCardImg.jpg" alt="reviewCardImg.jpg">
+                  </div>
+                  <div class="nameAndService">
+                    <h4>David Gueta</h4>
+                    <p>UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="textBubble">
+                  <img src="./icons/textBubble.svg" alt="Text Bubble Icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Testimony Section Ends -->
+
+    <!-- CTA Section Starts -->
+    <section id="cta">
+      <div class="container">
+        <img class="floatingCircle biggest" src="./images/circleBiggest.svg" alt="Masked Circle">
+        <img class="floatingCircle secondBiggest" src="./images/secondBiggest.svg" alt="Circle">
+        <img class="floatingCircle bigger" src="./images/bigger.svg" alt="Circle">
+        <img class="floatingCircle smallest" src="./images/smallest.svg" alt="Circle">
+
+        <div class="row ctaContentWrapper">
+          <div class="ctaContent col-12">
+            <h2>Interested Working With me? Let's connect!</h2>
+            <div class="contactMe">
+              <a href="#" class="myBtn"><i class="fa-regular fa-envelope"></i>CONTACT ME</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- CTA Section Ends -->
+  </main>
+  <!-- Main Content Ends -->
+
+  <!-- Footer Part Starts -->
+  <footer id="footer">
+    <div class="container">
+
+      <div class="footerContent">
+
+
+        <div class="row footerTop">
+          <div class="footerTopLeft col-lg-6">
+            <div class="footerLogo">
+              <img src="./images/footerLogo.png" alt="Brand Logo">
+            </div>
+            <p class="footerLeftTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus.
+              Praesent at hendrerit.</p>
+          </div>
+
+          <div class="footerTopRightWrapper col-lg-6">
+            <div class="footerTopRight">
+              <div class="email">
+                <a href="#"><i class="fa-regular fa-envelope"></i>inquiry@portostar.com</a>
+              </div>
+
+              <div class="phone">
+                <p><i class="fa-solid fa-phone"></i>(001) 1231 3435</p>
+              </div>
+              <div class="socialLinks">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-dribbble"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row footerBottom">
+          <div class="col-lg-6 footerBottomLeft">
+            <nav class="navbar navbar-expand-lg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">WORKS</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-lg-6 footerBottomRight">
+            <p class="copyright">&copy; All Right Reserved</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- Footer Part Ends -->
 
   <!-- JS files Start -->
   <script src="./js/bootstrap.bundle.min.js"></script>

@@ -3,26 +3,501 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   line-height: 0.8;
 }
-ul,
-ol {
+ul, ol {
   list-style-type: none;
 }
 a {
   text-decoration: none;
 }
+.myBtn {
+  background: #5E3BEE;
+  color: white;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
 /* All common css ends */
 
+/* Header Section Starts */
+#header {
+  background: #F9F9FC;
+}
+.headerBtn {
+  padding: 11px 22px;
+  transition: all 0.3s;
+}
+.headerBtn i {
+  margin-left: 7px;
+}
+.nav-link {
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  margin: 0 15px;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  color: #5E3BEE;
+}
+.headerBtn:hover {
+  background: #4125b0;
+}
+/* Header Section Ends */
 
+/* Hero Section Starts */
+#hero {
+  padding-top: 16px;
+  padding-bottom: 44px;
+  background: #F9F9FC;
+}
+.heroLeft {
+  padding-top: 80px;
+}
+.heroLeft span {
+  color: #5E3BEE;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+.heroLeft h1 {
+  color: #333333;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+.heroBtn .myBtn {
+  padding: 23px 38px;
+  transition: all 0.3s;
+}
+.heroBtn .myBtn i {
+  margin-right: 9px;
+}
+.heroBtn .myBtn:hover {
+  background: transparent;
+  color: #000;
+}
+/* Hero Section Ends */
+
+/* Experience Section Starts */
+#experience {
+  padding-top: 91px;
+}
+.expItem {
+  text-align: center;
+}
+.expQty {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 56px;
+}
+.expName {
+  color: #121212b3;
+  padding-top: 8px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+/* Experience Section Ends */
+
+
+/* Services Section Starts */
+#services {
+  padding-top: 79px;
+}
+.service {
+  position: relative;
+}
+.polygon img {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  z-index: -1;
+}
+.sectionName {
+  padding-top: 61px;
+  text-align: center;
+  color: #5E3BEE;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.sectionTitle {
+  padding-top: 12px;
+  padding-bottom: 13px;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0.5px;
+}
+.sectionDesc {
+  width: 600px;
+  margin: 0 auto 64px;
+  color: #121212b3;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.serviceCardContainer {
+  display: flex;
+  justify-content: center;
+}
+.serviceCard {
+  width: 376px;
+  background: #fff;
+  text-align: center;
+  border-radius: 24px;
+  padding: 52px 35px;
+  box-shadow: 11px 10px 30px 0 #0000001d;
+  transition: all 0.3s;
+}
+.serviceCard:hover {
+  background: #F9F9FC;
+  box-shadow: 5px 5px 20px 0 #00000040;
+}
+.serviceTitle {
+  padding-top: 37px;
+  padding-bottom: 9px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.serviceDesc {
+  color: #121212b3;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+/* Services Section Ends */
+
+
+/* Graphic Designer Section Starts */
+#graphicDesigner {
+  background: #F9F9FC;
+  margin-top: 140px;
+  padding: 109px 0;
+  position: relative;
+  z-index: -2;
+}
+.bottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.bottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.floatingPolygonBig {
+  position: absolute;
+  top: 95px;
+  right: 330px;
+}
+.floatingPolygonSmall {
+  position: absolute;
+  bottom: 91px;
+  right: 510px;
+}
+.leftAligned {
+  text-align: left;
+}
+#graphicDesigner h2 {
+  width: 482px;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.graphicsDesc {
+  width: 584px;
+  margin-bottom: 30px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.contactMe {
+  padding-top: 30px;
+}
+.contactMe .myBtn {
+  padding: 23px 38px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.contactMe .myBtn i {
+  margin-right: 9px;
+}
+
+/* Graphic Designer Section Ends */
+
+/* Client Work Section Starts */
+#clientWork {
+  padding-top: 127px;
+  padding-bottom: 113px;
+}
+/* Client Work Section Ends */
+
+/* Portfolio Section Starts */
+
+.portfolioLeft .sectionName {
+  padding-top: 0;
+}
+.portfolioLeft h3{
+  width: 360px;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0.5%;
+}
+.portfolioRight p {
+  width: 557px;
+  color: #121212b3;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.projectCard {
+  margin-top: 50px;
+  background: white;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 11px 10px 30px 0 #0000001d;
+  transition: all 0.3s;
+}
+.projectCard img{
+  max-height: 389px ;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+.projectCard:hover {
+  background: #F9F9FC;
+  box-shadow: 5px 5px 20px 0 #00000040;
+}
+.card-title {
+  padding-left: 20px;
+  padding-top: 33px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.card-text {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+/* Portfolio Section Ends */
+
+/* Testimony Section Starts */
+#testimony {
+  margin-top: 132px;
+}
+.upperPart {
+  background: #F9F9FC;
+  padding-top: 147px;
+  padding-bottom: 157px;
+}
+#testimony .sectionDesc {
+  padding-bottom: 0;
+}
+.lowerFloatingPart {
+  margin-top: -150px;
+}
+.lowerFloatingPart .row {
+  justify-content: center;
+  gap: 41px;
+}
+.reviewCard {
+  width: 584px;
+  background: white;
+  border-radius: 24px;
+  padding: 44px 48px 44px 40px;
+  box-shadow: 11px 10px 30px 0 #0000001d;
+  transition: all 0.3s;
+}
+.reviewCard:hover {
+  box-shadow: 7px 7px 20px 0 #0000002d;
+}
+.reviewCard .rating {
+  color: #EEC01C;
+}
+.reviewText {
+  margin-top: 32px;
+  margin-bottom: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+.reviewCardBottomFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.serviceDetail {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.clientPhoto img{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.nameAndService h4{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.nameAndService p {
+  color: #00000080;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+/* Testimony Section Ends */
+
+/* CTA Section Starts */
+#cta {
+  margin-top: 136px;
+}
+#cta .container {
+  position: relative;
+}
+.ctaContentWrapper {
+  background: #F9F9FC;
+  border-radius: 24px;
+  padding-top: 112px;
+  padding-bottom: 126px;
+  text-align: center;
+}
+.floatingCircle {
+  position: absolute;
+}
+.biggest {
+  bottom: 0;
+  right: 0;
+}
+.secondBiggest {
+  left: 99px;
+  bottom: 85px;
+}
+.bigger {
+  top: 54px;
+  right: 202px;
+}
+.smallest {
+  top: 59px;
+  left: 537px;
+}
+.ctaContent {
+  text-align: center;
+}
+.ctaContent h2 {
+  width: 606px;
+  margin: 0 auto;
+  padding-bottom: 19px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0.5%;
+}
+.ctaContent .myBtn {
+  transition: all 0.3s;
+}
+.ctaContent .contactMe .myBtn i {
+  margin-right: 9px;
+}
+.contactMe .myBtn:hover {
+  background: #4125b0;
+}
+/* CTA Section Ends */
+
+/* Footer Part Starts */
+#footer {
+  margin-top: 132px;
+  color: #fff;
+}
+.footerContent {
+  background: #333333;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 112px 143px 44px 151px;
+}
+.footerLeftTxt {
+  width: 369px;
+  padding-top: 22px;
+  padding-bottom: 68px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.footerTopRightWrapper {
+  display: flex;
+  justify-content: center;
+}
+.footerTopRight .email i, .footerTopRight .phone i {
+  margin-right: 18px;
+}
+.footerTopRight .email a {
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+.footerTopRight .phone {
+  margin: 30px 0;
+}
+.footerTopRight .phone p {
+  letter-spacing: 0.5px;
+}
+.socialLinks i {
+  font-size: 40px;
+  margin-right: 20px;
+}
+hr {
+  border: 1px solid #404040;
+}
+.footerBottom {
+  margin-top: 48px;
+}
+.footerBottomLeft .nav-link {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #ffffff00;
+  transition: all 0.3s;
+}
+.footerBottomLeft .nav-link:hover {
+  border-bottom: 1px solid #fff;
+}
+.footerBottomRight {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  width: 152px;
+  color: #ffffff99;
+  letter-spacing: 0.5px;
+}
+/* Footer Part Ends */
