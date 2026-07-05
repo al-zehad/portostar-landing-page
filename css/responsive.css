@@ -1,0 +1,313 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Header Starts */
+  #header {
+    padding: 37px 0;
+    text-align: center;
+  }
+  /* Header Ends */
+
+
+
+  /* Hero Starts */
+  #hero {
+    padding: 0;
+    text-align: center;
+  }
+  .heroLeft {
+    padding: 0;
+  }
+  #hero h1 {
+    font-size: 44px;
+  }
+  .heroImg {
+    padding-top: 40px;
+  }
+  .heroBtn .myBtn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  /* Hero Ends */
+
+
+  /* graphicDesigner Starts */
+  #graphicDesigner {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 70px;
+  }
+  .leftAligned {
+    text-align: center;
+  }
+  /* graphicDesigner Ends */
+
+
+  /* portfolio Starts */
+  #portfolio {
+    text-align: center;
+  }
+  .portfolioLeft h3 {
+    margin: 0 auto;
+  }
+  .portfolioRight p {
+    margin: 0 auto;
+  }
+  /* portfolio Ends */
+
+
+  /* CTA Starts */
+  .ctaContent h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+  }
+  /* CTA Ends */
+
+
+  /* Footer Starts */
+  #footer {
+    text-align: center;
+  }
+  .footerContent {
+    padding: 70px 0;
+  }
+  .footerLogo {
+    display: flex;
+    justify-content: center;
+  }
+  .footerLogo img {
+    text-align: center;
+  }
+  .footerLeftTxt {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .footerNav {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  /* Footer Ends */
+
+
+
+  /* Header Starts */
+  /* Header Ends */
+
+
+
+  /* Header Starts */
+  /* Header Ends */
+
+
+
+  /* Header Starts */
+  /* Header Ends */
+
+
+  /* Header Starts */
+  /* Header Ends */
+
+
+  /* Header Starts */
+  /* Header Ends */
+
+
+  /* Header Starts */
+  /* Header Ends */
+
+
+  /* Header Starts */
+  /* Header Ends */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header Starts */
+  #header {
+    padding: 37px 0;
+    text-align: center;
+  }
+  /* Header Ends */
+
+
+
+  /* Hero Starts */
+  #hero {
+    padding: 0;
+    text-align: center;
+  }
+  #hero h1 {
+    font-size: 44px;
+  }
+  .heroImg {
+    padding-top: 40px;
+  }
+  .heroBtn .myBtn {
+    display: block;
+    margin-bottom: 20px;
+  }
+  /* Hero Ends */
+
+  /* graphicDesigner Starts */
+  #graphicDesigner {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 70px;
+  }
+  .leftAligned {
+    text-align: center;
+  }
+  /* graphicDesigner Ends */
+
+
+  /* portfolio Starts */
+  #portfolio {
+    text-align: center;
+  }
+  .portfolioLeft h3 {
+    margin: 0 auto;
+  }
+  .portfolioRight p {
+    margin: 0 auto;
+  }
+  /* portfolio Ends */
+
+
+  /* CTA Starts */
+  .ctaContent h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+  }
+  /* CTA Ends */
+
+
+  /* Footer Starts */
+  #footer {
+    text-align: center;
+  }
+  .footerContent {
+    padding: 70px 0;
+  }
+  .footerLogo {
+    display: flex;
+    justify-content: center;
+  }
+  .footerLogo img {
+    text-align: center;
+  }
+  .footerLeftTxt {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .footerNav {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  /* Footer Ends */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+  /* Header Starts */
+  #header {
+    padding: 37px 0;
+    text-align: center;
+  }
+  /* Header Ends */
+
+
+
+  /* Hero Starts */
+  #hero {
+    padding: 0;
+    text-align: center;
+  }
+  .heroImg {
+    padding-top: 40px;
+  }
+  /* Hero Ends */
+
+
+  /* graphicDesigner Starts */
+  #graphicDesigner {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 70px;
+  }
+  #graphicDesigner h2 {
+    margin: 0 auto;
+  }
+  .graphicsDesc {
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .leftAligned {
+    text-align: center;
+  }
+  /* graphicDesigner Ends */
+
+
+  /* portfolio Starts */
+  #portfolio {
+    text-align: center;
+  }
+  .portfolioLeft h3 {
+    margin: 0 auto;
+  }
+  .portfolioRight p {
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  /* portfolio Ends */
+
+
+  /* CTA Starts */
+  .ctaContent h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+  }
+  /* CTA Ends */
+
+
+  /* Footer Starts */
+  #footer {
+    text-align: center;
+  }
+  .footerContent {
+    padding: 70px 0;
+  }
+  .footerLogo {
+    display: flex;
+    justify-content: center;
+  }
+  .footerLogo img {
+    text-align: center;
+  }
+  .footerLeftTxt {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .footerNav {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  /* Footer Ends */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}

@@ -144,7 +144,7 @@ a {
   letter-spacing: 0.5px;
 }
 .sectionDesc {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto 64px;
   color: #121212b3;
   text-align: center;
@@ -190,34 +190,37 @@ a {
   margin-top: 140px;
   padding: 109px 0;
   position: relative;
-  z-index: -2;
+  z-index: -10;
 }
 .bottomLeft {
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: -9;
 }
 .bottomRight {
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: -9;
 }
 .floatingPolygonBig {
   position: absolute;
   top: 95px;
   right: 330px;
+  z-index: -9;
 }
 .floatingPolygonSmall {
   position: absolute;
   bottom: 91px;
   right: 510px;
+  z-index: -9;
 }
 .leftAligned {
   text-align: left;
 }
 #graphicDesigner h2 {
-  width: 482px;
+  max-width: 482px;
   margin-top: 22px;
   margin-bottom: 15px;
   color: #333333;
@@ -226,7 +229,7 @@ a {
   line-height: 78px;
 }
 .graphicsDesc {
-  width: 584px;
+  max-width: 584px;
   margin-bottom: 30px;
   line-height: 32px;
   letter-spacing: 0.5px;
@@ -259,14 +262,14 @@ a {
   padding-top: 0;
 }
 .portfolioLeft h3{
-  width: 360px;
+  max-width: 360px;
   font-size: 44px;
   font-weight: 600;
   line-height: 56px;
   letter-spacing: 0.5%;
 }
 .portfolioRight p {
-  width: 557px;
+  max-width: 557px;
   color: #121212b3;
   line-height: 32px;
   letter-spacing: 0.5px;
@@ -328,7 +331,8 @@ a {
   gap: 41px;
 }
 .reviewCard {
-  width: 584px;
+  width: 90vw;
+  max-width: 584px;
   background: white;
   border-radius: 24px;
   padding: 44px 48px 44px 40px;
@@ -382,39 +386,41 @@ a {
   margin-top: 136px;
 }
 #cta .container {
-  position: relative;
-}
-.ctaContentWrapper {
   background: #F9F9FC;
   border-radius: 24px;
+  position: relative;
+  z-index: -2;
+}
+.ctaContentWrapper {
   padding-top: 112px;
   padding-bottom: 126px;
   text-align: center;
 }
 .floatingCircle {
   position: absolute;
+  z-index: -1;
 }
 .biggest {
   bottom: 0;
   right: 0;
 }
 .secondBiggest {
-  left: 99px;
-  bottom: 85px;
+    left: 10%;
+    bottom: 10%;
 }
 .bigger {
-  top: 54px;
-  right: 202px;
+    top: 7%;
+    right: 20%;
 }
 .smallest {
-  top: 59px;
-  left: 537px;
+    top: 10%;
+    left: 40%;
 }
 .ctaContent {
   text-align: center;
 }
 .ctaContent h2 {
-  width: 606px;
+  max-width: 606px;
   margin: 0 auto;
   padding-bottom: 19px;
   text-align: center;
@@ -446,7 +452,7 @@ a {
   padding: 112px 143px 44px 151px;
 }
 .footerLeftTxt {
-  width: 369px;
+  max-width: 369px;
   padding-top: 22px;
   padding-bottom: 68px;
   line-height: 32px;
@@ -480,7 +486,12 @@ hr {
 .footerBottom {
   margin-top: 48px;
 }
-.footerBottomLeft .nav-link {
+.footerNav {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+.footerBottomLeft .navLink {
   color: #fff;
   font-size: 14px;
   line-height: 22px;
@@ -488,8 +499,8 @@ hr {
   border-bottom: 1px solid #ffffff00;
   transition: all 0.3s;
 }
-.footerBottomLeft .nav-link:hover {
-  border-bottom: 1px solid #fff;
+.footerBottomLeft .navLink:hover {
+  color: #d6d5d54d;
 }
 .footerBottomRight {
   display: flex;
